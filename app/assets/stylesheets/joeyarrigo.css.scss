@@ -1,3 +1,54 @@
 // Place all the styles related to the joeyarrigo controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {background-color: #091219}
+
+body{overflow: auto;
+	height: 100vh;
+	width:62.5%;
+	line-height: 1.625;
+	font-family: Palatino;
+    font-size: 2em;
+    color: #9f8f7b;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;}
+
+a {text-decoration: underline;
+color: #7c9491}
+
+.box {
+     display:none;
+     position: relative;
+     top: 0px; 
+     left: 10px;}
+
+*:hover + .box {
+     display:block;}
+
+div {position: fixed;
+  	
+  	top: 0px;
+  	background-color: #18191e;
+	width: 11.71875vw;
+	height: 100vh;
+    }
+
+  #right {
+	float: right;
+    right: 0px;
+    }
+  #left {
+  	left: 0px;
+	float: left;
+	}
+
+  h1 {text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    color: #7c9491;}
+  h6 {text-align: right;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+    color: #9f8f7b;}
